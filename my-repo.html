@@ -7,6 +7,20 @@
     <title>my-repo</title>
 </head>
 <body>
-    
+    <form action="/tutorial/action.html">
+        <fieldset style="background: #f6f8ff; border: 2px solid #4238ca;">
+          <legend>User Information</legend>
+          <label for="name">Your name</label> &nbsp;
+          <input type="text" id="name" name="name"><br /><br />
+      
+          <label>Gender</label> &nbsp;&nbsp;&nbsp;
+          &nbsp; <label for="male"><input type="radio" id="male" name="gender" value="male" checked> Male</label>
+          &nbsp; <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+          &nbsp; <label for="other"><input type="radio" id="other" name="gender" value="other"> Other</label><br /><br />
+      
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      
 </body>
 </html>
